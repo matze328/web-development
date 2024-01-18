@@ -1,0 +1,32 @@
+/* Tipp: STRG+# zum Auskommentieren*/
+
+.home{
+  background-color: rgb(31, 116, 207);
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  border: 3px rgb(7, 7, 7) solid;
+}
+.anmelden{
+  background-color: rgb(31, 207, 52);
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  border: 3px rgb(7, 7, 7) solid;
+}
+.registrieren{
+  background-color: rgb(177, 38, 38);
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  border: 3px rgb(12, 4, 4) solid;
+}
+.doppelfrosch{
+  flex-direction: column;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: black; */
+}
