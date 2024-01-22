@@ -6,6 +6,11 @@ body {
     body {
       background-color: rgb(66, 199, 243);
     }
+  }    
+    @media only screen and (max-width: 300px) {
+        body {
+          background-color: rgb(236, 227, 56);
+        }
   }            
 
 .home {
@@ -53,7 +58,7 @@ body {
     justify-content: space-between;
     background-color: #474747;
     position: sticky;
-    border-bottom: medium dashed #158825;
+    border-bottom: medium dashed #ef4a25;
 }
 
 .profil {
