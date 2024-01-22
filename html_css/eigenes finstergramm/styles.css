@@ -1,6 +1,12 @@
-body{
-    margin: 0px;
-}
+body {
+    background-color: lightgreen;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(66, 199, 243);
+    }
+  }            
 
 .home {
     align-items: center;
@@ -18,7 +24,7 @@ body{
     background-color: #8f0909;
     text-decoration: none;
     font-weight: bold;
-    color:rgb(0, 0, 0)
+    color:rgb(180, 74, 74)
 }
 
 .registrieren {
@@ -47,7 +53,7 @@ body{
     justify-content: space-between;
     background-color: #474747;
     position: sticky;
-    border-bottom: medium dashed #060303;
+    border-bottom: medium dashed #158825;
 }
 
 .profil {
@@ -72,6 +78,7 @@ body{
 }
 
 .profil-info {
+    color: rgb(140, 11, 11);
 }
 
 .profil-stats {
@@ -92,7 +99,7 @@ body{
 }
 
 .gallery{
-    background-color: #040303;
+    background-color: #396832a4;
     display:flex;
     justify-content: center;
 }
