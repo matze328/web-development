@@ -1,10 +1,8 @@
-/* Tipp: STRG+# zum Auskommentieren*/
 body{
     margin: 0px;
 }
 
 .home {
-    /* background-color: red; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -15,7 +13,6 @@ body{
 }
 
 .anmelden {
-    /* background-color: blue; */
     padding: 10px;
     margin: 10px;
     background-color: #8f0909;
@@ -25,7 +22,6 @@ body{
 }
 
 .registrieren {
-    /* background-color: aquamarine; */
     padding: 10px;
     margin: 10px;
     background-color: #74646420;
@@ -46,7 +42,6 @@ body{
 
 #navbar {
     top : 0;
-    /* font-size: 1.25em; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -61,18 +56,14 @@ body{
     min-width: 500px;
     height: 100%;
     margin-top: 20px;
-    /* background-color: yellow; */
 }
 
 .profil-kram{
-    /* background-color: purple; */
     width: 100%;
 }
 
 .profil-bild {
-    /* background-color: blue; */
     padding: 40px;
-    /* margin-top: 50px;  */
 }
 
 .profil-bild-img {
@@ -81,16 +72,13 @@ body{
 }
 
 .profil-info {
-    /* background-color: red; */
 }
 
 .profil-stats {
     margin-top: 15px;
-    /* background-color: aquamarine; */
 }
 
 .profil-bio {
-    /* background-color: green; */
     text-align: center;
 }
 
