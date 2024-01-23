@@ -1,17 +1,18 @@
 body {
-    background-color: lightgreen;
-  }
-  
-  @media only screen and (max-width: 600px) {
+    background-color: rgba(143, 25, 25, 0.521);
+}
+
+@media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(66, 199, 243);
+        background-color: rgb(66, 225, 243);
     }
-  }    
-    @media only screen and (max-width: 300px) {
-        body {
-          background-color: rgb(236, 227, 56);
-        }
-  }            
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: rgb(223, 238, 56);
+    }
+}
 
 .home {
     align-items: center;
@@ -19,40 +20,40 @@ body {
     display: flex;
 }
 
-.logo{
+.logo {
     height: 2em;
 }
 
 .anmelden {
     padding: 10px;
     margin: 10px;
-    background-color: #8f0909;
+    background-color: #2d7bb7;
     text-decoration: none;
     font-weight: bold;
-    color:rgb(180, 74, 74)
+    color: rgb(10, 7, 7)
 }
 
 .registrieren {
     padding: 10px;
     margin: 10px;
-    background-color: #74646420;
+    background-color: #194ba275;
     text-decoration: none;
     font-weight: bold;
-    color:rgb(255, 0, 0)
+    color: rgb(20, 12, 12)
 }
 
 .nav-buttons {
     display: flex;
-    align-items: center;  
+    align-items: center;
 }
 
-.post{
-    height:200px;
-    width:200px;
+.post {
+    height: 200px;
+    width: 200px;
 }
 
 #navbar {
-    top : 0;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -62,14 +63,14 @@ body {
 }
 
 .profil {
-    display:flex;
+    display: flex;
     justify-content: space-around;
     min-width: 500px;
     height: 100%;
     margin-top: 20px;
 }
 
-.profil-kram{
+.profil-kram {
     width: 100%;
 }
 
@@ -94,28 +95,28 @@ body {
     text-align: center;
 }
 
-.flexbox{
-    display:flex;
+.flexbox {
+    display: flex;
     justify-content: center;
 }
 
-.stat{
+.stat {
     margin-right: 10px;
 }
 
-.gallery{
+.gallery {
     background-color: #396832a4;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
-.column{
+.column {
     margin-top: 3px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
-.gallery-img{
+.gallery-img {
     width: 300px;
     height: 300px;
     margin: 2px;
